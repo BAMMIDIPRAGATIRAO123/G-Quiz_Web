@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Home from '../src/component/Home/Home';
+import Home from './component/Home/Home';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';  
 import {
    BrowserRouter as Router,
@@ -9,22 +9,22 @@ import {
 } from "react-router-dom";
 import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
-import Javascript from "../src/component/Topic/Javascript";
-import Header from "../src/component/Landing/Header";
-import {AuthProvider} from "../src/Auth";
-import Login from "../src/component/Landing/Login";
-import Signup from "../src/component/Landing/Signup";
+import Javascript from "./component/Topic/Javascript";
+import Header from "./component/Landing/Header";
+import {AuthProvider} from "./Auth";
+import Login from "./component/Landing/Login";
+import Signup from "./component/Landing/Signup";
 import Python from './component/Topic/Python';
 import REACT from './component/Topic/REACT';
 import CSS from './component/Topic/CSS';
 import Bootstrap from './component/Topic/Bootstrap';
-import JSQuiz from '../src/component/Quiz/JSQuiz';
-import PythonQuiz from '../src/component/Quiz/PythonQuiz';
-import About from "../src/component/About/About";
-import board from "../src/component/Leaderboard/board";
-import REACTQuiz from "../src/component/Quiz/REACTQuiz";
-import BootstrapQuiz from "../src/component/Quiz/BootstrapQuiz";
-import CSSQuiz from "../src/component/Quiz/CSSQuiz";
+import JSQuiz from './component/Quiz/JSQuiz';
+import PythonQuiz from './component/Quiz/PythonQuiz';
+import About from "./component/About/About";
+import board from "./component/Leaderboard/board";
+import REACTQuiz from "./component/Quiz/REACTQuiz";
+import BootstrapQuiz from "./component/Quiz/BootstrapQuiz";
+import CSSQuiz from "./component/Quiz/CSSQuiz";
 import Feedback from './component/Feedback/Feedback';
 import comment from './component/Feedback/comment';
 
