@@ -7,7 +7,7 @@ const SignUp = ({ history }) =>{
         event.preventDefault();
         const { email, password, username } = event.target.elements;
         try{
-            await firebase.auth().createUserWithEmailAndPassword(email.value, password.value, username.value)
+            await firebase.auth().createUserWithEmailAndPassword(email.value, password.value)
             history.push("/Home");
 
         } catch (error) {
