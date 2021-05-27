@@ -75,7 +75,7 @@ function App() {
                </Box>
             </Container>
          </Router>
-         <div className="landing"></div>
+         {/* <div className="landing"></div> */}
       </MuiThemeProvider>
    </AuthProvider>
   );
